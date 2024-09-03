@@ -18,7 +18,7 @@ print(tokenizer.batch_decode(out))
 
 model_graph = draw_graph(
     model, input_ids,
-    graph_name='Mamba_graph_dep3', expand_nested=True,
+    graph_name='Mamba_graph_dep_4', expand_nested=True,
     depth=4,
     save_graph = True,
 )
